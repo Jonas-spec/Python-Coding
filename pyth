@@ -1,0 +1,25 @@
+''''name = input("Please Enter your text :")
+charac = len(name)
+print(charac)
+a = name.replace(" ", "")
+reversed_name = name[::-1]
+print(reversed_name)'''
+
+'''words = []
+for i in range (5):
+    word = input(f"enter a word {i + 1}:")
+    words.append(word)
+    print("length of words entered :")
+    for word in words :
+   print(f"The word '{word}' has {len(word)} characters.")'''
+
+
+
+words = []  
+for i in range(5):
+    word = input(f"Enter a word {i + 1}: ")
+    words.append(word)
+
+print("Length of words entered:")
+for word in words:
+    print(f"The word '{word}' has {len(word)} characters.") 
